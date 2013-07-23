@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA3A73F8179DB098002C4447 /* MZESpaceShip.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3A73F7179DB098002C4447 /* MZESpaceShip.m */; };
+		CA3A73F9179DB098002C4447 /* MZESpaceShip.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3A73F7179DB098002C4447 /* MZESpaceShip.m */; };
 		CAB9AF92179D9C89005DCD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB9AF91179D9C89005DCD15 /* Foundation.framework */; };
 		CAB9AF94179D9C89005DCD15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB9AF93179D9C89005DCD15 /* CoreGraphics.framework */; };
 		CAB9AF96179D9C89005DCD15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB9AF95179D9C89005DCD15 /* UIKit.framework */; };
@@ -17,7 +19,6 @@
 		CAB9AFA7179D9C89005DCD15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB9AFA5179D9C89005DCD15 /* Main.storyboard */; };
 		CAB9AFAA179D9C89005DCD15 /* MZEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB9AFA9179D9C89005DCD15 /* MZEViewController.m */; };
 		CAB9AFAD179D9C89005DCD15 /* MZEMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB9AFAC179D9C89005DCD15 /* MZEMyScene.m */; };
-		CAB9AFAF179D9C89005DCD15 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB9AFAE179D9C89005DCD15 /* Spaceship.png */; };
 		CAB9AFB1179D9C89005DCD15 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB9AFB0179D9C89005DCD15 /* Images.xcassets */; };
 		CAB9AFB8179D9C89005DCD15 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB9AFB7179D9C89005DCD15 /* XCTest.framework */; };
 		CAB9AFB9179D9C89005DCD15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB9AF91179D9C89005DCD15 /* Foundation.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA3A73F6179DB098002C4447 /* MZESpaceShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZESpaceShip.h; sourceTree = "<group>"; };
+		CA3A73F7179DB098002C4447 /* MZESpaceShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZESpaceShip.m; sourceTree = "<group>"; };
 		CAB9AF8E179D9C89005DCD15 /* Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB9AF91179D9C89005DCD15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CAB9AF93179D9C89005DCD15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,7 +56,6 @@
 		CAB9AFA9179D9C89005DCD15 /* MZEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZEViewController.m; sourceTree = "<group>"; };
 		CAB9AFAB179D9C89005DCD15 /* MZEMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZEMyScene.h; sourceTree = "<group>"; };
 		CAB9AFAC179D9C89005DCD15 /* MZEMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZEMyScene.m; sourceTree = "<group>"; };
-		CAB9AFAE179D9C89005DCD15 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		CAB9AFB0179D9C89005DCD15 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CAB9AFB6179D9C89005DCD15 /* MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB9AFB7179D9C89005DCD15 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,7 +130,8 @@
 				CAB9AFA9179D9C89005DCD15 /* MZEViewController.m */,
 				CAB9AFAB179D9C89005DCD15 /* MZEMyScene.h */,
 				CAB9AFAC179D9C89005DCD15 /* MZEMyScene.m */,
-				CAB9AFAE179D9C89005DCD15 /* Spaceship.png */,
+				CA3A73F6179DB098002C4447 /* MZESpaceShip.h */,
+				CA3A73F7179DB098002C4447 /* MZESpaceShip.m */,
 				CAB9AFB0179D9C89005DCD15 /* Images.xcassets */,
 				CAB9AF9A179D9C89005DCD15 /* Supporting Files */,
 			);
@@ -243,7 +246,6 @@
 			files = (
 				CAB9AF9E179D9C89005DCD15 /* InfoPlist.strings in Resources */,
 				CAB9AFB1179D9C89005DCD15 /* Images.xcassets in Resources */,
-				CAB9AFAF179D9C89005DCD15 /* Spaceship.png in Resources */,
 				CAB9AFA7179D9C89005DCD15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +268,7 @@
 				CAB9AFAA179D9C89005DCD15 /* MZEViewController.m in Sources */,
 				CAB9AFA0179D9C89005DCD15 /* main.m in Sources */,
 				CAB9AFA4179D9C89005DCD15 /* MZEAppDelegate.m in Sources */,
+				CA3A73F8179DB098002C4447 /* MZESpaceShip.m in Sources */,
 				CAB9AFAD179D9C89005DCD15 /* MZEMyScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAB9AFC4179D9C89005DCD15 /* MazeTests.m in Sources */,
+				CA3A73F9179DB098002C4447 /* MZESpaceShip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +475,7 @@
 				CAB9AFC9179D9C89005DCD15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAB9AFCA179D9C89005DCD15 /* Build configuration list for PBXNativeTarget "MazeTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				CAB9AFCC179D9C89005DCD15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
